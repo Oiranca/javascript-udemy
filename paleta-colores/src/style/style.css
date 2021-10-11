@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background: linear-gradient(dodgerblue, cadetblue);
+
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+.container-salida {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+
+}
+
+p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.salida {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+
+}
+
+.container-paleta {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+}
+
